@@ -1,0 +1,21 @@
+name: flutter_nearby_messages_example
+description: Demonstrates how to use the flutter_nearby_messages plugin.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_nearby_messages:
+    path: ../
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,17 @@
+name: flutter_nearby_messages
+description: Flutter plugin for Google Nearby Messages library.
+version: 0.0.1
+author: rostopira
+homepage: https://github.com/rostopira/flutter-nearby-messages
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: ua.rostopira.flutternearbymessages
+    pluginClass: FlutterNearbyMessagesPlugin
